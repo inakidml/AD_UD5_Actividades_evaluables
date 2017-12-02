@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/_xmlrpc-server-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/exist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/exist-optional.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/log4j-1.2.14.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/xmldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/xmlrpc-client-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/Dropbox/AD privado/UD5/Librerías eXist XML_DB/xmlrpc-common-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/exist.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/exist-optional.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/log4j-1.2.14.jar.zip"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/xmldb.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/xmlrpc-client-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/xmlrpc-common-3.1.1.jar"/>
+	<classpathentry kind="lib" path="/mnt/C8C8F617C8F6040A/Users/Inaki/Dropbox/Desarrollo de aplicaciones/AD privado/UD5/Librerías eXist XML_DB/_xmlrpc-server-3.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
