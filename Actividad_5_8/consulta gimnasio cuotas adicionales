@@ -1,0 +1,43 @@
+for $socio in (/SOCIOS_GIM/fila_socios), $act_uso in (/USO_GIMNASIO/fila_uso[CODSOCIO=($socio/COD)])
+ 
+let $act_tipo:=(/ACTIVIDADES_GIM/fila_actividades[@cod=$act_uso/CODACTIV]/@tipo)
+let $act_nomb:=(/ACTIVIDADES_GIM/fila_actividades[@cod=$act_uso/CODACTIV]/NOMBRE)
+let $hora_ini:=($act_uso/HORAINICIO)
+let $hora_fin:=($act_uso/HORAFINAL)
+let $horas:=data($hora_fin)-data($hora_ini)
+
+where $socio/COD=$act_uso/CODSOCIO
+
+return
+if(data($act_tipo)=1)then
+<datos>
+<COD>{data($socio/COD)}</COD>
+<NOMBRESOCIO>{data($socio/NOMBRE)}</NOMBRESOCIO>
+<CODACTIV>{data($act_uso/CODACTIV)}</CODACTIV>
+<NOMBREACTIVIDAD>{data($act_nomb)}</NOMBREACTIVIDAD>
+<horas>{data($horas)}</horas>
+<tipoact>{data($act_tipo)}</tipoact>
+<cuota_adicional>0</cuota_adicional>
+</datos>
+else if(data($act_tipo)=2) then
+<datos>
+<COD>{data($socio/COD)}</COD>
+<NOMBRESOCIO>{data($socio/NOMBRE)}</NOMBRESOCIO>
+<CODACTIV>{data($act_uso/CODACTIV)}</CODACTIV>
+<NOMBREACTIVIDAD>{data($act_nomb)}</NOMBREACTIVIDAD>
+<horas>{data($horas)}</horas>
+<tipoact>{data($act_tipo)}</tipoact>
+<cuota_adicional>{data($horas)*2}</cuota_adicional>
+</datos>
+else if(data($act_tipo)=3) then
+<datos>
+<COD>{data($socio/COD)}</COD>
+<NOMBRESOCIO>{data($socio/NOMBRE)}</NOMBRESOCIO>
+<CODACTIV>{data($act_uso/CODACTIV)}</CODACTIV>
+<NOMBREACTIVIDAD>{data($act_nomb)}</NOMBREACTIVIDAD>
+<horas>{data($horas)}</horas>
+<tipoact>{data($act_tipo)}</tipoact>
+<cuota_adicional>{data($horas)*4}</cuota_adicional>
+</datos>
+else(<mal>{data($act_tipo)}</mal>)
+

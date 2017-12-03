@@ -1,0 +1,11 @@
+for $soc in distinct-values(/socios_cuotaadicional/datos/COD)
+let $total_adic:= sum(/socios_cuotaadicional/datos[COD=$soc]/cuota_adicional)
+let $nombre:=distinct-values(/socios_cuotaadicional/datos[COD=$soc]/NOMBRESOCIO)
+let $total:=data($total_adic)+(data(/SOCIOS_GIM/fila_socios[COD=$soc]/CUOTA_FIJA))
+return
+<datos>
+<COD>{data($soc)}</COD>
+<NOMBRESOCIO>{data($nombre)}</NOMBRESOCIO>
+<suma_cuota_adic>{data($total_adic)}</suma_cuota_adic><cuota_total>{data($total)}</cuota_total>
+</datos>
+
