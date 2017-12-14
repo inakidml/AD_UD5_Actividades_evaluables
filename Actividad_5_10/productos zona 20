@@ -1,0 +1,12 @@
+for $prod in doc('/db/BDProductosXML/productos.xml')/productos/produc[cod_zona=20]
+let $zona := doc('/db/BDProductosXML/zonas.xml')/zonas/zona[cod_zona=20]
+return
+<zona_20>
+<cod_prod>{data($prod/cod_prod)}</cod_prod>
+<denominacion>{data($prod/denominacion)}</denominacion>
+<precio>{data($prod/precio)}</precio>
+<nombre_zona>{data($zona/nombre)}</nombre_zona>
+<director>{data($zona/director)}</director>
+<stock>{data($prod/stock_actual)-data($prod/stock_minimo)}</stock>
+</zona_20>
+

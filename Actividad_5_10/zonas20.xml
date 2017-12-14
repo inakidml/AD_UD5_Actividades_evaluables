@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<zona_20>
+        <cod_prod xmlns="">1012</cod_prod>
+        <denominacion xmlns="">Micro Intel Core i5 2500</denominacion>
+        <precio xmlns="">170</precio>
+        <nombre_zona xmlns="">Extremadura-Galicia</nombre_zona>
+        <director xmlns="">Alicia Pérez</director>
+        <stock xmlns="">-1</stock>
+    </zona_20>
+<zona_20>
+        <cod_prod xmlns="">1013</cod_prod>
+        <denominacion xmlns="">HD Seagate Barracuda 250GB SATA</denominacion>
+        <precio xmlns="">80</precio>
+        <nombre_zona xmlns="">Extremadura-Galicia</nombre_zona>
+        <director xmlns="">Alicia Pérez</director>
+        <stock xmlns="">5</stock>
+    </zona_20>
+<zona_20>
+        <cod_prod xmlns="">1021</cod_prod>
+        <denominacion xmlns="">Memoria DDR3 Kingston HyperX 4GB</denominacion>
+        <precio xmlns="">16</precio>
+        <nombre_zona xmlns="">Extremadura-Galicia</nombre_zona>
+        <director xmlns="">Alicia Pérez</director>
+        <stock xmlns="">11</stock>
+    </zona_20>

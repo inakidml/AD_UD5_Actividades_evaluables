@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/GitHub/AD_UD5_Actividades_evaluables/exist-xqj/lib/exist-xqj-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/GitHub/AD_UD5_Actividades_evaluables/exist-xqj/lib/exist-xqj-examples.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/GitHub/AD_UD5_Actividades_evaluables/exist-xqj/lib/xqj2-0.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/9fdam02/GitHub/AD_UD5_Actividades_evaluables/exist-xqj/lib/xqjapi.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
