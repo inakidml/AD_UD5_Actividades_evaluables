@@ -1,0 +1,33 @@
+<datos>
+    <empleado salario="2000">
+        <puesto>Asociado</puesto>
+        <nombre>Juan Parra</nombre>
+    </empleado>
+    <empleado salario="2300">
+        <puesto>Profesor</puesto>
+        <nombre>Alicia Martín</nombre>
+    </empleado>
+</datos>
+<datos>
+    <empleado salario="2000">
+        <puesto>Técnico</puesto>
+        <nombre>Juan Parra</nombre>
+    </empleado>
+    <empleado salario="2200">
+        <puesto>Profesor</puesto>
+        <nombre>Mª Jesús Ramos</nombre>
+    </empleado>
+    <empleado salario="2400">
+        <puesto>Profesor</puesto>
+        <nombre>Pedro Paniagua</nombre>
+    </empleado>
+    <empleado salario="2600">
+        <puesto>Tutor</puesto>
+        <nombre>Antonia González</nombre>
+    </empleado>
+    <empleado salario="2440">
+        <puesto>Técnico</puesto>
+        <nombre>Pedro Fraile</nombre>
+    </empleado>
+</datos>
+<datos/>

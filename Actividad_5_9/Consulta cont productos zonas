@@ -1,0 +1,16 @@
+<datos>
+    <nombre_zona>Madrid-CENTRO</nombre_zona>
+    <cantidad_prod>4</cantidad_prod>
+</datos>
+<datos>
+    <nombre_zona>Extremadura-Galicia</nombre_zona>
+    <cantidad_prod>3</cantidad_prod>
+</datos>
+<datos>
+    <nombre_zona>Levante-Cataluña</nombre_zona>
+    <cantidad_prod>4</cantidad_prod>
+</datos>
+<datos>
+    <nombre_zona>Andalucía</nombre_zona>
+    <cantidad_prod>2</cantidad_prod>
+</datos>
